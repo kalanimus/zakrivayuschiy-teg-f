@@ -1,1 +1,28 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --Inter-Variable: "Inter-Variable", sans-serif;
+  --PressStart2P: "PressStart2P", sans-serif;
+  --CardTextWeight: 400;
+  --CardTitleWeight: 600;
+  --BackgroundImage: repeating-linear-gradient(
+      to right,
+      #d3d3d3,
+      #d3d3d3 2px,
+      transparent 2px,
+      transparent 4px
+    ),
+    repeating-linear-gradient(
+      to bottom,
+      #d3d3d3,
+      #d3d3d3 2px,
+      transparent 2px,
+      transparent 4px
+    ),
+    linear-gradient(to bottom, #e7e7e7, #e7e7e7 0.01%, #1a1a1a);
+  --AccentColor: rgb(0, 0, 0);
+  --WatermarkStroke: rgba(255, 255, 255, 0.5);
+  --ButtonTextColor: rgb(255, 255, 255);
+  --ContourColor: rgb(0, 0, 0);
+  --FillColor: rgb(255, 0, 0);
+  --MainBodyColor: rgb(255, 255, 255);
+}
